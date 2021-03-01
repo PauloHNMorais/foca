@@ -1,6 +1,7 @@
 import React, { HtmlHTMLAttributes, LinkHTMLAttributes, useContext, useEffect, useState } from "react";
 import { SettingsContext } from "../contexts/SettingsContext";
 import style from "../styles/components/Sidebar.module.css"
+import { ThemeStyles } from "./ThemeStyles";
 
 export function Sidebar() {
   const { colorTheme, toggleTheme } = useContext(SettingsContext)
@@ -17,7 +18,11 @@ export function Sidebar() {
         <Link href="/settings">
           <i className="mdi mdi-cog-outline"></i>
         </Link>
+        <Link href="/help">
+          <i className="mdi mdi-help-circle-outline"></i>
+        </Link>
       </div>
+      <ThemeStyles colorTheme={colorTheme} />  
     </div>
   )
 }

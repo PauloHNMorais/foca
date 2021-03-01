@@ -32,7 +32,8 @@ export default function Settings(props: ISettingsProps) {
           <i className="mdi mdi-cog-outline"></i>
           Configurações
         </h2>
-        <hr/>
+        <hr/> 
+        <br/>
         <form action="">
           <label htmlFor="theme">Tema</label> 
           <br/>        
@@ -41,32 +42,7 @@ export default function Settings(props: ISettingsProps) {
             <option value="dark">Escuro</option>
           </select>
         </form>
-      </section>
-
-      <section>
-        <h2>
-          <i className="mdi mdi-information-outline"></i>
-          Sobre
-        </h2>
-        <hr/>
-        
-        <img src="/icons/logo/logo-larga.png" alt=""/>
-
-        <p>App desenvolvido no evento Next Level Week #4 da <a href="https://rocketseat.com.br/" target="_blank">RocketSeat</a></p>
-        
-        <br/>
-                
-        <div className={styles.profile}>
-          <div>
-            <img src="https://github.com/PauloHNMorais.png" alt="Paulo H N Morais"/>
-          </div>
-          <div>
-            <strong>Paulo H N Morais</strong>
-            <span>Desenvolvedor Full-Stack | React | React Native</span>
-            <a href="https://paulo-h-n-morais.000webhostapp.com/" target="_blank">Visite meu Portfólio</a>
-          </div>
-        </div>
-      </section>
+      </section>      
     </div>
     <ThemeStyles colorTheme={colorTheme} />  
   </>
