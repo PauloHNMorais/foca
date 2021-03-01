@@ -1,0 +1,45 @@
+.sidebarContainer {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 64px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: var(--white); /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.sidebarContainer a {
+  padding: 8px 0px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+}
+
+.sidebarContainer i[class^="mdi"] {
+  font-size: 3rem;
+}
+
+.activeLink {
+  color: var(--blue-dark);
+  border-left: 4px solid var(--blue-dark);
+}
+.inactiveLink {
+  color: var(--gray);
+  border-left: 4px solid var(--white);
+}
+
+.sidebarContainer a img {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}

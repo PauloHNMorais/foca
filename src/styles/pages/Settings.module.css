@@ -1,0 +1,90 @@
+.container {
+  height: 100vh;
+  max-width: 992px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.container form label {
+  font-size: 1.25rem;
+}
+
+.container form .formControl {
+  width: 50%;
+  height: 48px;
+  font-size: 1rem;
+  color: var(--text);
+  background: var(--white);
+  border: 1px solid var(--gray-line);
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.container hr {
+  margin: 12px 0px;
+  border: 1px solid var(--gray-line);
+}
+
+.container section {
+  margin-bottom: 16px;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.05);
+}
+
+.container section:nth-child(odd) {
+  background-color: var(--white);
+}
+
+.container section:nth-child(even) {
+  background-image: linear-gradient(to bottom right, var(--blue), var(--blue-dark));
+  color: white;
+}
+
+.container section h2 {
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.container section:nth-child(odd) {
+  color: var(--title)
+}
+
+.container section:nth-child(even) {
+  color: var(--white  )
+}
+
+.container section a {
+  color: var(--text-highlight)
+}
+
+.container h2 > i[class^=mdi] {
+  margin-right: 8px;
+}
+
+.container section > img {
+  width: 20rem;
+}
+
+.profile {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  gap: 1rem; 
+}
+
+.profile div img {
+  width: 100%;
+  border-radius: 300px;
+}
+
+.profile div {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile h3 {
+  color: var(--title)
+}
