@@ -3,6 +3,7 @@ import React, { useContext, useEffect } from "react"
 import { ThemeStyles } from "../components/ThemeStyles";
 import { SettingsContext, SettingsProvider } from "../contexts/SettingsContext";
 import styles from "../styles/pages/Settings.module.css";
+import Head from "next/head";
 
 interface ISettingsProps {
   colorTheme: string;
@@ -23,6 +24,9 @@ export default function Settings(props: ISettingsProps) {
   
   return <>
     <div className={styles.container}>
+      <Head>
+        <title>Configurações | Foca!</title>
+      </Head>
       <section>
         <h2>
           <i className="mdi mdi-cog-outline"></i>

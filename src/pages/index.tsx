@@ -37,7 +37,7 @@ export default function Home(props: IHomeProps) {
       >
         <div className={styles.container}>
           <Head>
-            <title>Início</title>
+            <title>Início | Foca!</title>
           </Head>
 
           <ExperienceBar />
