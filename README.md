@@ -67,6 +67,7 @@ cd foca-main
 
 // Instalar as dependências do projeto
 npm install
+```
 
 * Executando o Projeto
 
