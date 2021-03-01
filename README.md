@@ -111,7 +111,7 @@ Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as vers�
 
 Este projeto está sob a licença GPL 3.0 - veja o arquivo [LICENSE.md](https://github.com/PauloHNMorais/foca/blob/main/LICENSE) para detalhes.
 
-## 🎁 Expressões de gratidão
+## 🎁 Agradecimentos
 
 * Agradeço a [RocketSeat](https://rocketseat.com.br/) por mais um evento Next Level Week
 * Agradeço o café quente da mamãe
