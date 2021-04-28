@@ -35,7 +35,7 @@ export default function Settings(props: ISettingsProps) {
         <hr/> 
         <br/>
         <form action="">
-          <label htmlFor="theme">Tema</label> 
+          <label htmlFor="theme">Tema (test)</label> 
           <br/>        
           <select className={styles.formControl} name="theme" id="theme" value={colorTheme} onChange={handleThemeChange}>
             <option value="light">Claro</option>
