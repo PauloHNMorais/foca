@@ -28,44 +28,54 @@ export default function Help(props: IHelpProps) {
           <i className="mdi mdi-help-circle-outline"></i>
           Ajuda
         </h2>
-        <hr/>
+        <hr />
 
         <h3>Descrição</h3>
 
         <p>
-        Este APP lhe ajudará, de uma forma simples, a manter ciclos de pequenos exercícios físicos entre atividades que geralmente mantemos repetitivas, como atividades no computador por longos períodos.
+          Este APP lhe ajudará, de uma forma simples, a manter ciclos de
+          pequenos exercícios físicos entre atividades que geralmente mantemos
+          repetitivas, como atividades no computador por longos períodos.
         </p>
 
         <p>
-        É utilizada a técnica Pomodoro, que consiste em dividirmos nossas atividades em 25 minutos, alternadas por pequenos intervalos para descanso, geralmente 5 minutos
+          É utilizada a técnica Pomodoro, que consiste em dividirmos nossas
+          atividades em 25 minutos, alternadas por pequenos intervalos para
+          descanso, geralmente 5 minutos
         </p>
-        
+
         <p>
-        👉 Este APP foi desenvolvido e aprimorado no evento online Next Level Week #4, da <a href="https://rocketseat.com.br/" target="_blank">RocketSeat</a>
+          👉 Este APP foi desenvolvido e aprimorado no evento online Next Level
+          Week #4, da{" "}
+          <a href="https://rocketseat.com.br/" target="_blank">
+            RocketSeat
+          </a>
         </p>
 
         <h3>Como Usar</h3>
 
         <ol>
           <li>
-          Para iniciar um ciclo de atividade, selecione "Iniciar ciclo". Com isso, você terá 25 minutos para desenvolver sua atividade, antes de dar uma pausa:
-          <img src="/screenshots/1.jpg" alt="Página 1"/>
+            Para iniciar um ciclo de atividade, selecione "Iniciar ciclo". Com
+            isso, você terá 25 minutos para desenvolver sua atividade, antes de
+            dar uma pausa:
+            <img src="/screenshots/1.jpg" alt="Página 1" />
           </li>
 
-          <br/>
+          <br />
 
           <li>
-          Ao final do ciclo, no lado direito, é mostrada uma atividade física aleatória para prática. Após praticá-la (ou não), selecione uma das duas opções correspondentes:
-
-          <img src="/screenshots/3.jpg" alt="Página 2"/>
+            Ao final do ciclo, no lado direito, é mostrada uma atividade física
+            aleatória para prática. Após praticá-la (ou não), selecione uma das
+            duas opções correspondentes:
+            <img src="/screenshots/3.jpg" alt="Página 2" />
           </li>
 
-          <br/>
+          <br />
 
           <li>
-          Conforme seu avanço, você irá subir de nível:
-
-          <img src="/screenshots/4.jpg" alt="Página 3"/>
+            Conforme seu avanço, você irá subir de nível:
+            <img src="/screenshots/4.jpg" alt="Página 3" />
           </li>
         </ol>
       </section>
@@ -75,28 +85,41 @@ export default function Help(props: IHelpProps) {
           <i className="mdi mdi-information-outline"></i>
           Sobre
         </h2>
-        <hr/>
-        
-        <img src="/icons/logo/logo-larga.png" alt=""/>
+        <hr />
 
-        <p>App desenvolvido no evento Next Level Week #4 da <a href="https://rocketseat.com.br/" target="_blank">RocketSeat</a></p>
-        
-        <br/>
-                
+        <img src="/icons/logo/logo-larga.png" alt="" />
+
+        <p>
+          App desenvolvido no evento Next Level Week #4 da{" "}
+          <a href="https://rocketseat.com.br/" target="_blank">
+            RocketSeat
+          </a>
+        </p>
+
+        <br />
+
         <div className={styles.profile}>
           <div>
-            <img src="https://github.com/PauloHNMorais.png" alt="Paulo H N Morais"/>
+            <img
+              src="https://github.com/PauloHNMorais.png"
+              alt="Paulo H N Morais"
+            />
           </div>
           <div>
             <strong>Paulo H N Morais</strong>
             <span>Desenvolvedor Full-Stack | React | React Native</span>
-            <a href="https://paulo-h-n-morais.000webhostapp.com/" target="_blank">Visite meu Portfólio</a>
+            <a
+              href="https://paulohnmorais-portfolio.vercel.app/"
+              target="_blank"
+            >
+              Visite meu Portfólio
+            </a>
           </div>
         </div>
       </section>
-      <ThemeStyles colorTheme={colorTheme} />  
+      <ThemeStyles colorTheme={colorTheme} />
     </div>
-  )
+  );
 }
 
 export const getServerSideProps: GetServerSideProps = async(ctx) => {
